@@ -12,7 +12,7 @@
        trimmed to its first <nodegraph>; deliberately includes <place2d>, a node NOT in this
        library's curated table, to prove the parser doesn't just consume its own emitter's
        dialect and doesn't silently drop what it doesn't recognize)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.xml :as xml]
             [materialx.core :as mx]))
 
